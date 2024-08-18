@@ -15,7 +15,7 @@ public class CalcTest {
     public void testSubtraction() {
         Calc c = new Calc();
         // This test is designed to fail because 4 - 2 should be 2, but we will assert 3
-        assertEquals(3, c.subtract(4, 2));
+        assertEquals(2, c.subtract(4, 2));
     }
 
 }
